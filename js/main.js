@@ -1,7 +1,9 @@
 $(document).ready( function() {
     $('#backTop').backTop({
-        'position' : 1400,
-        'speed' : 500,
-        'color' : 'red',
+        'position' : window.innerHeight-100,
+        'speed' : 500
     });
+
+   /* $('.footer-icon>ul > li:first').addClass('followClass');*/
 });
+
