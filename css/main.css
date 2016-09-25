@@ -3,7 +3,7 @@
     src: url("../fonts/Georgia.ttf");
 }
 @font-face {
-    font-family: 'nevis';
+    font-family: nevis;
     src: url('../fonts/nevis.ttf');
     font-weight: normal;
     font-style: normal;
@@ -40,7 +40,7 @@ body {
     color: #949ec3;
 }
 input[type="text"] {
-    font-family: georgia;
+    font-family:georgia;
     font-style: italic;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@ input[type="text"] {
 .top-menu > ul > li > a {
     font-size: 19px;
     font-weight: normal;
-    font-family: georgia;
+    font-family:georgia;
     text-decoration: none;
     cursor: pointer;
     padding-bottom: 10px;
@@ -98,7 +98,7 @@ div.polaroid {
     border-radius: 8px;
 }
 div .img-width {
-    width: 90%;
+    width: 92%;
 }
 .img-text {
     text-align: center;
@@ -116,7 +116,7 @@ div .img-width {
     transition: border .2s ease-in-out;
 }
 .img-text > p {
-    font-family: "Georgia";
+    font-family:georgia;
     font-size: 16px;
     font-style: italic;
 }
@@ -125,9 +125,9 @@ div .img-width {
     padding-top: 10px;
 }
 .content-para p {
-    font-size: 16px;
-    font-family: myFirstFont;
-    color: #8c8c8c;
+    font-size: 15px;
+    font-family:georgia;
+    color: #666666;
 }
 .icon-setting {
     background: url("../img/icon_cog.jpg") no-repeat;
@@ -199,7 +199,7 @@ div .img-width {
     min-height: 50px;
     padding: 1px 19px;
     color: #6e81bd;
-    font-size: 16.32px;
+    font-size: 16px;
 }
 /*----------------------------map section--------------------------------------*/
 
@@ -208,7 +208,6 @@ div .img-width {
 }
 .map_section h2 {
     text-align: center;
-    padding-top: 20px;
     padding-top: 20px;
     font-size: 24px;
 }
