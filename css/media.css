@@ -67,6 +67,9 @@
     .navbar-default .navbar-brand {
         color: #fff;
     }
+    .sector_mobile{
+        width:50%;
+    }
 }
 @media only screen and (max-width: 667px) {
     .top-menu {
@@ -92,6 +95,9 @@
     }
     .top-menu {
         float: left;
+    }
+    .sector_mobile{
+        width:100%;
     }
 }
 @media only screen and (max-width: 568px) {
